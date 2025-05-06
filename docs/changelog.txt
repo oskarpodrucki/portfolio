@@ -1,0 +1,8 @@
+Tuesday, 6 May 2025 13:00:00
+Created first version of the portfolio using Next.js and Tailwind CSS
+Fully implemented core components: MeBox, Navbar, Footer, ThemeToggle
+Finished the main landing page / with introductory content
+Added dark mode toggle
+Added pulsating call-to-action button linking to /portfolio
+Added working footer with external links: LinkedIn, GitHub, Email, CV download
+Implemented consistent card-based UI layout

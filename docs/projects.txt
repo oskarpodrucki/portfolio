@@ -1,0 +1,6 @@
+https://github.com/oskarpodrucki/quiz-ai
+https://github.com/oskarpodrucki/next.js-rtchat/tree/main/src/app
+https://github.com/oskarpodrucki/next.js-Cocktails/tree/main
+https://github.com/oskarpodrucki/next.js-Gold-Prices
+https://github.com/oskarpodrucki/next.js-Weather-App
+https://github.com/oskarpodrucki/next.js-News-App/tree/main
