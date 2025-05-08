@@ -1,9 +1,13 @@
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
+import { AnimatedBackground } from "../ui/animated-background";
 
 export default function Navbar() {
 	return (
 		<Card className='flex flex-row justify-between items-center w-[777px] h-[55px] p-5 border-solid border-2'>
+			<AnimatedBackground>
+				
+			</AnimatedBackground>
 			<Link
 				href='/'
 				className='transition duration-150 ease-in-out hover:scale-110 hover:text-green-400'>
