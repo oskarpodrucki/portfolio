@@ -8,7 +8,7 @@ export default function MeBox() {
 			<div className='w-[15%]'>
 				<Avatar className='w-[122px] h-[122px]'>
 					<AvatarImage src='pictures/me.jpg' />
-					<AvatarFallback>CN</AvatarFallback>
+					<AvatarFallback>OP</AvatarFallback>
 				</Avatar>
 			</div>
 			<div className='w-[85%]'>

@@ -7,6 +7,7 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import Link from "next/link";
 
 export default function About() {
 	return (
@@ -15,14 +16,10 @@ export default function About() {
 				<CardTitle className='text-amber-400 text-3xl'>/about</CardTitle>
 			</CardHeader>
 			<Separator />
-			<CardContent className='h-[94%]'>
-				<CardTitle>About</CardTitle>
-				<CardDescription>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-					maxime repellendus necessitatibus, dolorem, perspiciatis aliquid atque
-					dolorum id nihil officiis praesentium corrupti illo tempora quod modi
-					architecto possimus pariatur earum.
-				</CardDescription>
+			<CardContent className='flex flex-col items-center w-full h-[94%]'>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/about/me'>me</Link>
+				</Card>
 			</CardContent>
 		</Card>
 	);

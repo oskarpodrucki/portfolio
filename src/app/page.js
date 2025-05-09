@@ -28,8 +28,7 @@ export default function Home() {
 					of myself — both as a developer and as a person.
 				</CardDescription>
 				<CardDescription className='mt-5 text-xl'>
-					Technologies I mainly use: React, Next.js, Tailwind CSS, TypeScript,
-					Git
+					Technologies I mainly use: react, next.js, tailwindcss, shadcn/ui, git
 				</CardDescription>
 				<div className='flex justify-center items-center mt-32'>
 					<Link href='/portfolio'>

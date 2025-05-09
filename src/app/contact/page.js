@@ -48,7 +48,7 @@ export default function Contact() {
 				</div>
 			</CardContent>
 			<CardFooter>
-				<Button className='w-full'>Submit</Button>
+				<Button className='w-full cursor-pointer'>Submit</Button>
 			</CardFooter>
 		</Card>
 	);
