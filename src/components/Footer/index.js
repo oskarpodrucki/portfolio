@@ -4,8 +4,8 @@ import { Linkedin, Github, Mail, FileUser } from "lucide-react";
 
 export default function Footer() {
 	return (
-		<Card className='flex flex-row justify-between items-center w-[777px] h-[55px] px-5 border-solid border-2 text-sm'>
-			<div>© oskarpodrucki — Frontend Developer</div>
+		<Card className='flex flex-row justify-between items-center w-screen sm:w-[640px] md:w-[700px] lg:w-[777px] h-[55px] p-5 border-solid border-2 text-sm'>
+			<div>© oskarpodrucki — frontend developer</div>
 			<div className='flex flex-row items-center'>
 				<Link
 					href='https://www.linkedin.com/in/oskar-podrucki-5198322b7/'

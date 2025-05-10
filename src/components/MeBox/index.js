@@ -4,15 +4,15 @@ import { ThemeToggle } from "../ThemeToogle/ThemeToggle";
 
 export default function MeBox() {
 	return (
-		<Card className='flex flex-row justify-center items-center w-[777px] h-[144px] p-5 border-solid border-2'>
-			<div className='w-[15%]'>
+		<Card className='flex flex-row justify-center items-center w-screen sm:w-[640px] md:w-[700px] lg:w-[777px] h-[144px] px-5 border-solid border-2'>
+			<div className='sm:w-[17%] md:w-[16%] lg:w-[15%]'>
 				<Avatar className='w-[122px] h-[122px]'>
 					<AvatarImage src='pictures/me.jpg' />
 					<AvatarFallback>OP</AvatarFallback>
 				</Avatar>
 			</div>
 			<div className='w-[85%]'>
-				<h1 className='text-4xl'>oskarpodrucki</h1>
+				<h1 className='md:text-2xl lg:text-4xl'>oskarpodrucki</h1>
 				<p>frontend developer</p>
 			</div>
 			<div className='w-[10%]'>
