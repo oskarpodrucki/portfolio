@@ -33,18 +33,23 @@ export default function Me() {
 	}, [randHex]);
 
 	return (
-		<Card className='flex justify-center w-[777px] h-[666px] p-5 border-solid border-2'>
+		<Card
+			className='flex flex-col 
+				justify-start 
+				w-screen sm:w-[640px] md:w-[700px] lg:w-[777px] 
+				sm:h-[444px] md:h-[555px] lg:h-[666px]
+				p-5 border-2'>
 			<CardHeader className='h-[4%]'>
 				<CardTitle style={{ color: randHex }} className='text-3xl'>
 					/about/me
 				</CardTitle>
 			</CardHeader>
 			<Separator />
-			<CardContent className='h-[94%]'>
+			<CardContent className='flex flex-col space-y-4'>
 				<Link href='/about'>← go back to /about</Link>
-				<div className='mt-4'>
-					<h2 className='text-3xl text-center'>me</h2>
-					<ScrollArea className='h-[450px] w-[684px] rounded-md border p-4 mt-4'>
+				<div>
+					<h2 className='text-3xl text-center mb-4'>me</h2>
+					<ScrollArea className='w-full h-[328px] sm:h-[250px] md:h-[328px] lg:h-[433px] rounded-md border p-4'>
 						<p className='text-lg mt-4'>me</p>
 						<p className='text-md mt-2'>smth about me</p>
 					</ScrollArea>

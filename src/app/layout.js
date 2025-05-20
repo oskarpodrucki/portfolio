@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/ThemeProvider/theme-provider";
 import MeBox from "@/components/MeBox";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+
 import { AnimatedGroup } from "@/components/ui/animated-group";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang='en' suppressHydrationWarning>
-			<body className={`${inter.className} overflow-hidden`}>
+			<body className={`${inter.className}`}>
 				<ThemeProvider
 					attribute='class'
 					defaultTheme='system'

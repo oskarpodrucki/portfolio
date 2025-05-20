@@ -33,39 +33,57 @@ export default function Hello() {
 	}, [randHex]);
 
 	return (
-		<Card className='flex justify-center w-[777px] h-[666px] p-5 border-solid border-2'>
-			<CardHeader className='h-[4%]'>
+		<Card
+			className='
+				flex flex-col 
+				justify-start 
+				w-screen sm:w-[640px] md:w-[700px] lg:w-[777px] 
+				sm:h-[444px] md:h-[555px] lg:h-[666px]
+				p-5 border-2
+			'>
+			<CardHeader>
 				<CardTitle style={{ color: randHex }} className='text-3xl'>
 					/blog/helloworld
 				</CardTitle>
 			</CardHeader>
+
 			<Separator />
-			<CardContent className='h-[94%]'>
+
+			<CardContent className='flex flex-col space-y-4'>
 				<Link href='/blog'>← go back to /blog</Link>
-				<div className='mt-4'>
-					<h2 className='text-3xl text-center'>helloworld</h2>
-					<ScrollArea className='h-[450px] w-[684px] rounded-md border p-4 mt-4'>
-						<p className='text-lg mt-4'>Hey there! 👋</p>
-						<p className='text-md mt-2'>
-							Welcome to my little corner of the internet. This is the very
-							first post on this blog, and honestly — I’m just happy to be
-							starting something new. I don’t know exactly where this will go
-							yet, but that’s part of the fun, right?
-						</p>
-						<p className='text-md mt-2'>
-							I’ll be sharing things I learn, stuff I build, maybe a few
-							thoughts here and there. It’s nothing fancy — just a space to
-							explore, grow, and enjoy the process.
-						</p>
-						<p className='text-md mt-2'>
-							If you’re reading this: thank you. You’re awesome.
-						</p>
-						<p className='text-md mt-2'>See you soon!</p>
-						<p className='text-md mt-2'>
-							— <em>me :)</em>
-						</p>
-					</ScrollArea>
-				</div>
+
+				<h2 className='text-3xl text-center'>helloworld</h2>
+
+				<ScrollArea className='w-full h-[328px] sm:h-[225px] md:h-[328px] lg:h-[433px] rounded-md border p-4'>
+					<p className='text-sm mt-1'>Date: Tuesday, 20 May 2025 18:52:14</p>
+					<p className='text-lg mt-4'>Hey there! 👋</p>
+					<p className='text-md mt-2'>
+						Welcome to my little corner of the internet. This is the very first
+						post on this blog, and honestly — I’m just happy to be starting
+						something new. I don’t know exactly where this will go yet, but
+						that’s part of the fun, right?
+					</p>
+					<p className='text-md mt-2'>
+						I’ll be sharing things I learn, stuff I build, maybe a few thoughts
+						here and there. It’s nothing fancy — just a space to explore, grow,
+						and enjoy the process.
+					</p>
+					<p className='text-md mt-2'>
+						As you can see, there are some things that don’t work yet. Mainly
+						responsiveness, and there’s also no content on pages like Projects
+						or About Me. But I’ll try to fix that in the coming days — so stay
+						tuned!
+					</p>
+					<p className='text-md mt-2'>
+						Of course, if you find something that doesn't work properly, you can
+						write to me via contact or create an issue about it on github, I'll
+						be grateful 😉
+					</p>
+					<p className='text-md mt-2'>
+						If you’re reading this: thank you. You’re awesome.
+					</p>
+					<p className='text-md mt-2'>See you soon!</p>
+				</ScrollArea>
 			</CardContent>
 		</Card>
 	);
