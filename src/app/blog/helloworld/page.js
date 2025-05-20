@@ -59,28 +59,28 @@ export default function Hello() {
 					<p className='text-lg mt-4'>Hey there! 👋</p>
 					<p className='text-md mt-2'>
 						Welcome to my little corner of the internet. This is the very first
-						post on this blog, and honestly — I&apos;m just happy to be starting
-						something new. I don&apos;t know exactly where this will go yet, but
-						that&apos;s part of the fun, right?
+						post on this blog, and honestly — I&#39;m just happy to be starting
+						something new. I don&#39;t know exactly where this will go yet, but
+						that&#39;s part of the fun, right?
 					</p>
 					<p className='text-md mt-2'>
-						I&apos;ll be sharing things I learn, stuff I build, maybe a few thoughts
-						here and there. It&apos;s nothing fancy — just a space to explore, grow,
-						and enjoy the process.
+						I&#39;ll be sharing things I learn, stuff I build, maybe a few
+						thoughts here and there. It&#39;s nothing fancy — just a space to
+						explore, grow, and enjoy the process.
 					</p>
 					<p className='text-md mt-2'>
-						As you can see, there are some things that don&apos;t work yet. Mainly
-						responsiveness, and there&apos;s also no content on pages like Projects
-						or About Me. But I&apos;ll try to fix that in the coming days — so stay
-						tuned!
+						As you can see, there are some things that don&#39;t work yet.
+						Mainly responsiveness, and there&#39;s also no content on pages like
+						Projects or About Me. But I&#39;ll try to fix that in the coming
+						days — so stay tuned!
 					</p>
 					<p className='text-md mt-2'>
-						Of course, if you find something that doesn&apos;t work properly, you can
-						write to me via contact or create an issue about it on github, I'll
-						be grateful 😉
+						Of course, if you find something that doesn&#39;t work properly, you
+						can write to me via contact or create an issue about it on github,
+						I&#39;ll be grateful 😉
 					</p>
 					<p className='text-md mt-2'>
-						If you&apos;re reading this: thank you. You&apos;re awesome.
+						If you&#39;re reading this: thank you. You&#39;re awesome.
 					</p>
 					<p className='text-md mt-2'>See you soon!</p>
 				</ScrollArea>
