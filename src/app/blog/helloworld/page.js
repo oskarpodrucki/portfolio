@@ -59,28 +59,28 @@ export default function Hello() {
 					<p className='text-lg mt-4'>Hey there! 👋</p>
 					<p className='text-md mt-2'>
 						Welcome to my little corner of the internet. This is the very first
-						post on this blog, and honestly — I’m just happy to be starting
-						something new. I don’t know exactly where this will go yet, but
-						that’s part of the fun, right?
+						post on this blog, and honestly — I&apos;m just happy to be starting
+						something new. I don&apos;t know exactly where this will go yet, but
+						that&apos;s part of the fun, right?
 					</p>
 					<p className='text-md mt-2'>
-						I’ll be sharing things I learn, stuff I build, maybe a few thoughts
-						here and there. It’s nothing fancy — just a space to explore, grow,
+						I&apos;ll be sharing things I learn, stuff I build, maybe a few thoughts
+						here and there. It&apos;s nothing fancy — just a space to explore, grow,
 						and enjoy the process.
 					</p>
 					<p className='text-md mt-2'>
-						As you can see, there are some things that don’t work yet. Mainly
-						responsiveness, and there’s also no content on pages like Projects
-						or About Me. But I’ll try to fix that in the coming days — so stay
+						As you can see, there are some things that don&apos;t work yet. Mainly
+						responsiveness, and there&apos;s also no content on pages like Projects
+						or About Me. But I&apos;ll try to fix that in the coming days — so stay
 						tuned!
 					</p>
 					<p className='text-md mt-2'>
-						Of course, if you find something that doesn't work properly, you can
+						Of course, if you find something that doesn&apos;t work properly, you can
 						write to me via contact or create an issue about it on github, I'll
 						be grateful 😉
 					</p>
 					<p className='text-md mt-2'>
-						If you’re reading this: thank you. You’re awesome.
+						If you&apos;re reading this: thank you. You&apos;re awesome.
 					</p>
 					<p className='text-md mt-2'>See you soon!</p>
 				</ScrollArea>
