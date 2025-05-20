@@ -14,11 +14,11 @@ import { PulsatingButton } from "@/components/magicui/pulsating-button";
 export default function Home() {
 	return (
 		<Card className='flex justify-center w-screen sm:w-[640px] md:w-[700px] lg:w-[777px] sm:h-[444px] md:h-[555px] lg:h-[666px] p-5 border-solid border-2'>
-			<CardHeader className='h-[4%]'>
+			<CardHeader className='h-[5%]'>
 				<CardTitle className='text-green-400 text-3xl'>/</CardTitle>
 			</CardHeader>
 			<Separator />
-			<CardContent className='w-full h-full'>
+			<CardContent className='w-full h-[95%]'>
 				<CardTitle className='sm:text-xl md:text-2xl lg:text-3xl'>
 					Hello, my name is Oskar 👋
 				</CardTitle>
