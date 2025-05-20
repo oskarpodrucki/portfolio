@@ -22,7 +22,7 @@ export default function Contact() {
 			<CardContent className='h-[94%] space-y-4'>
 				<CardTitle>Contact with Me</CardTitle>
 				<CardDescription>
-					Fill out the form below and we'll get back to you as soon as possible.
+					Fill out the form below and we&apos;ll get back to you as soon as possible.
 				</CardDescription>
 				<div className='grid grid-cols-2 gap-4'>
 					<div className='space-y-2'>

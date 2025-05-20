@@ -20,11 +20,11 @@ export default function Home() {
 			<CardContent className='h-[94%]'>
 				<CardTitle className='text-3xl'>Hello, my name is Oskar 👋</CardTitle>
 				<CardDescription className='text-xl'>
-					I'm a 17-year-old frontend developer from Poland with a strong focus
+					I&apos;m a 17-year-old frontend developer from Poland with a strong focus
 					on creating clean, interactive user interfaces. I specialize in modern
-					tools like React, Next.js, and Tailwind CSS, and I'm currently diving
+					tools like React, Next.js, and Tailwind CSS, and I&apos;m currently diving
 					deeper into UI/UX design and web animations. Through building projects
-					and refining my skills, I'm working toward becoming the best version
+					and refining my skills, I&apos;m working toward becoming the best version
 					of myself — both as a developer and as a person.
 				</CardDescription>
 				<CardDescription className='mt-5 text-xl'>
