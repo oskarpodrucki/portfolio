@@ -47,7 +47,7 @@ export default function Contact() {
 					<CardContent className='flex flex-col flex-grow space-y-4'>
 						<CardTitle>Contact with Me</CardTitle>
 						<CardDescription>
-							Fill out the form below and I'll get back to you as soon as
+							Fill out the form below and I&apos;ll get back to you as soon as
 							possible.
 						</CardDescription>
 

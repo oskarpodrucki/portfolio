@@ -23,7 +23,7 @@ export default function Home() {
 					Hello, my name is Oskar 👋
 				</CardTitle>
 				<CardDescription className='sm:text-sm md:text-md lg:text-xl'>
-					I'm a 17-year-old frontend developer from Poland with a strong focus
+					I&apos;m a 17-year-old frontend developer from Poland with a strong focus
 					on creating clean, interactive user interfaces. I specialize in modern
 					tools like React, Next.js, and Tailwind CSS, and I&apos;m currently diving
 					deeper into UI/UX design and web animations. Through building projects
