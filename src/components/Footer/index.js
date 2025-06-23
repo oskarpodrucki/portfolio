@@ -25,7 +25,7 @@ export default function Footer() {
 					<Mail />
 				</Link>
 				<Link
-					href='/cv/oskarpodruckicv.pdf'
+					href='/cv/Oskar_Podrucki_CV.pdf'
 					download
 					target='_blank'
 					className='ml-4 transition duration-150 ease-in-out hover:scale-110 hover:text-amber-400'>
