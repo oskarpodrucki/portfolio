@@ -24,6 +24,9 @@ export default function Portfolio() {
 					<Link href='/portfolio/minibiz'>minibiz</Link>
 				</Card>
 				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/portfolio/map'>map</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
 					<Link href='/portfolio/weather'>weather</Link>
 				</Card>
 				<Card className='flex justify-center items-center w-full h-[50px]'>
