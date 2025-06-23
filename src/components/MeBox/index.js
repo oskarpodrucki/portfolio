@@ -12,8 +12,8 @@ export default function MeBox() {
 				</Avatar>
 			</div>
 			<div className='w-[77%] md:w-[83%] lg:w-[85%]'>
-				<h1 className='text-2xl lg:text-4xl'>oskarpodrucki</h1>
-				<p>frontend developer</p>
+				<h1 className='text-2xl lg:text-4xl text-center md:text-left'>oskarpodrucki</h1>
+				<p className='text-center md:text-left'>frontend developer</p>
 			</div>
 			<div className='w-[10%]'>
 				<ThemeToggle />

@@ -16,9 +16,21 @@ export default function Portfolio() {
 				<CardTitle className='text-sky-400 text-3xl'>/portfolio</CardTitle>
 			</CardHeader>
 			<Separator />
-			<CardContent className='flex flex-col items-center w-full h-[94%]'>
+			<CardContent className='flex flex-col items-center w-full h-[94%] gap-3'>
 				<Card className='flex justify-center items-center w-full h-[50px]'>
-					<Link href='/portfolio/project1'>project1</Link>
+					<Link href='/portfolio/mywebsite'>mywebsite</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/portfolio/minibiz'>minibiz</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/portfolio/weather'>weather</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/portfolio/gold'>gold</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/portfolio/cocktails'>cocktails</Link>
 				</Card>
 			</CardContent>
 		</Card>

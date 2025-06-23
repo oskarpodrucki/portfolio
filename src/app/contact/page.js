@@ -34,7 +34,7 @@ export default function Contact() {
 				flex flex-col
 			'
 			style={{ minHeight: "auto" }}>
-			<CardHeader>
+			<CardHeader className='h-[4%]'>
 				<CardTitle className='text-rose-400 text-3xl'>/contact</CardTitle>
 			</CardHeader>
 

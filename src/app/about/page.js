@@ -16,9 +16,15 @@ export default function About() {
 				<CardTitle className='text-amber-400 text-3xl'>/about</CardTitle>
 			</CardHeader>
 			<Separator />
-			<CardContent className='flex flex-col items-center w-full h-[94%]'>
+			<CardContent className='flex flex-col items-center w-full h-[94%] gap-3'>
 				<Card className='flex justify-center items-center w-full h-[50px]'>
 					<Link href='/about/me'>me</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/about/stack'>stack</Link>
+				</Card>
+				<Card className='flex justify-center items-center w-full h-[50px]'>
+					<Link href='/about/values'>values</Link>
 				</Card>
 			</CardContent>
 		</Card>

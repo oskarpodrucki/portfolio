@@ -41,7 +41,7 @@ export default function Hello() {
 				sm:h-[444px] md:h-[555px] lg:h-[666px]
 				p-5 border-2
 			'>
-			<CardHeader>
+			<CardHeader className='h-[4%]'>
 				<CardTitle style={{ color: randHex }} className='text-3xl'>
 					/blog/helloworld
 				</CardTitle>

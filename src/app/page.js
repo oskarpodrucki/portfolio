@@ -14,7 +14,7 @@ import { PulsatingButton } from "@/components/magicui/pulsating-button";
 export default function Home() {
 	return (
 		<Card className='flex justify-center w-screen sm:w-[640px] md:w-[700px] lg:w-[777px] sm:h-[444px] md:h-[555px] lg:h-[666px] p-5 border-solid border-2'>
-			<CardHeader className='h-[5%]'>
+			<CardHeader className='h-[4%]'>
 				<CardTitle className='text-green-400 text-3xl'>/</CardTitle>
 			</CardHeader>
 			<Separator />
@@ -23,12 +23,13 @@ export default function Home() {
 					Hello, my name is Oskar 👋
 				</CardTitle>
 				<CardDescription className='sm:text-sm md:text-md lg:text-xl'>
-					I&apos;m a 17-year-old frontend developer from Poland with a strong focus
-					on creating clean, interactive user interfaces. I specialize in modern
-					tools like React, Next.js, and Tailwind CSS, and I&apos;m currently diving
-					deeper into UI/UX design and web animations. Through building projects
-					and refining my skills, I&apos;m working toward becoming the best version
-					of myself — both as a developer and as a person.
+					I&apos;m a 17-year-old frontend developer from Poland with a strong
+					focus on creating clean, interactive user interfaces. I specialize in
+					modern tools like React, Next.js, and Tailwind CSS, and I&apos;m
+					currently diving deeper into UI/UX design and web animations. Through
+					building projects and refining my skills, I&apos;m working toward
+					becoming the best version of myself — both as a developer and as a
+					person.
 				</CardDescription>
 				<CardDescription className='mt-5 sm:text-sm md:text-md lg:text-xl'>
 					Technologies I mainly use: react, next.js, tailwindcss, shadcn/ui, git

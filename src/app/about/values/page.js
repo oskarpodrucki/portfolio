@@ -12,7 +12,7 @@ import { Separator } from "@/components/ui/separator";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import Link from "next/link";
 
-export default function Me() {
+export default function Values() {
 	const [randHex, setRandHex] = useState("");
 
 	const randomHexColorCode = () => {
@@ -41,21 +41,21 @@ export default function Me() {
 				p-5 border-2'>
 			<CardHeader className='h-[4%]'>
 				<CardTitle style={{ color: randHex }} className='text-3xl'>
-					/about/me
+					/about/values
 				</CardTitle>
 			</CardHeader>
 			<Separator />
 			<CardContent className='flex flex-col space-y-4'>
 				<Link href='/about'>← go back to /about</Link>
 				<div>
-					<h2 className='text-3xl text-center mb-4'>me</h2>
+					<h2 className='text-3xl text-center mb-4'>values</h2>
 					<ScrollArea className='w-full h-[328px] sm:h-[250px] md:h-[328px] lg:h-[433px] rounded-md border p-4'>
-						<p className='text-lg mt-4'>me</p>
+						<p className='text-lg mt-4'>values</p>
 						<p className='text-md mt-2'>
-							Hey, I’m Oskar. I’m a 17-year-old developer from Poland, focused
-							on frontend, backend, and self-improvement. I care about writing
-							clean code, learning by doing, and building with purpose. This
-							page – and the /about section – is a quick look at who I am.
+							I like keeping things simple and clear. Code should be easy to
+							read and do what it’s supposed to. I try to get better by putting
+							in steady work, not looking for quick wins. I build things with a
+							reason and try to learn something from every project.
 						</p>
 					</ScrollArea>
 				</div>
